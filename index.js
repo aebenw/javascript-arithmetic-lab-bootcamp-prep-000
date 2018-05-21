@@ -22,19 +22,15 @@ function makeInt(n) {
   return parseInt(n, 10);
 }
 
-function inc(a) {
-  return a++;
+function inc(n) {
+  return n++;
+}
+
+function dec(n) {
+  return n--;
 }
 
 
-
-it('inc(n) increments n and returns the result', function() {
-  expect(inc(a)).toEqual(a + 1)
-})
-
-it('dec(n) decrements n and returns the result', function() {
-  expect(dec(a)).toEqual(a - 1)
-})
 
 describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
