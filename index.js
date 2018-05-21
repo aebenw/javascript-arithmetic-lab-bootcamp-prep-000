@@ -32,5 +32,5 @@ function preserveDecimal(n){
   if (isNaN(n)){
     return NaN;
   }
-  return parseFloat(parseFloat(n));
+  return parseFloat(n);
 }
